@@ -3,11 +3,13 @@ import TrackingMap from './components/TrackingMap'
 
 function App() {
   return (
-    <div className="w-full h-screen bg-branco-algodao flex flex-col overflow-hidden">
-      <Header />
-      {/* Map fills remaining space below header */}
-      <div className="flex-1 pt-[44px]">
-        <TrackingMap />
+    <div className="w-full h-screen bg-gray-100 flex justify-center">
+      <div className="w-full max-w-[430px] h-full bg-branco-algodao flex flex-col overflow-hidden relative shadow-2xl">
+        <Header />
+        {/* Map fills remaining space below header */}
+        <div className="flex-1 pt-[44px]">
+          <TrackingMap />
+        </div>
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import { MapPin, Calendar, Package } from 'lucide-react'
 
 const InfoPanel = ({ step }) => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[1001] px-3 pb-4 pt-0">
+    <div className="absolute bottom-0 left-0 right-0 z-[1001] px-3 pb-4 pt-0">
       <AnimatePresence mode="wait">
         <motion.div
           key={step.id}

@@ -2,7 +2,7 @@ import { TreePine, Shield } from 'lucide-react'
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-[1000] bg-white/90 backdrop-blur-sm border-b border-black/5 shadow-sm">
+    <header className="absolute top-0 left-0 right-0 z-[1000] bg-white/90 backdrop-blur-sm border-b border-black/5 shadow-sm">
       <div className="flex items-center justify-between px-4 py-2.5">
         {/* Logo */}
         <div className="flex items-center space-x-2">
